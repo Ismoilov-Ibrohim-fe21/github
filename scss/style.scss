@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 1110px;
+    height: max-content;
+
+    header {
+        
+        max-width: 1110px;
+        height: 50px;
+        margin-top: 28px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .hamb {
+            width: 16px;
+            height: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+
+            .one {
+                width: 16px;
+                height: 3px;
+                background: #D8D8D8;
+            }
+
+            .two {
+                width: 16px;
+                height: 3px;
+                background: #D8D8D8;
+            }
+
+            .three {
+                width: 16px;
+                height: 3px;
+                background: #D8D8D8;
+            }
+        }
+
+        img {
+            width: 137.5px;
+            height: 20px;
+
+
+        }
+
+        div {
+            margin-right: 399px;
+
+            ul {
+                list-style: none;
+
+                li {
+                    display: flex;
+
+                    a {
+                        text-decoration: none;
+                        margin-left: 32px;
+                        font-family: Kumbh Sans;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #69707D;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #1D2026;
+                            font-family: Kumbh Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 26px;
+                            /* 173.333% */
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .oh {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 15px;
+            width: max-content;
+
+            .market {
+                width: 21.821197509765625px;
+                height: 20px;
+
+                &:hover {
+                    color: #1D2026;
+                }
+            }
+
+            .men {
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+    }
+
+    section {
+        .box {
+            display: flex;
+            align-items: center;
+            margin-top: 136px;
+            margin-left: 105px;
+
+            .imglar {
+                background-color: #fff;
+                width: 445px;
+                height: 565px;
+
+                .bigimg {
+                    width: 445px;
+                    height: 445px;
+
+
+                }
+
+                .fourimg {
+                    display: flex;
+                    column-gap: 31px;
+                    width: 88px;
+                    height: 88px;
+                    margin-top: 32px;
+
+                }
+            }
+
+            .info {
+                width: 445px;
+                height: 426px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                margin-left: 115px;
+
+                .headinfo {
+                    font-family: Kumbh Sans;
+                    font-size: 13px;
+                    font-weight: 700;
+                    line-height: 16px;
+                    letter-spacing: 2px;
+                    text-align: left;
+                    color: #FF7E1B;
+                }
+
+                h1 {
+                    width: 445px;
+                    height: 96px;
+                    font-family: Kumbh Sans;
+                    font-size: 44px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #1D2026;
+                    margin-top: 27px;
+                }
+
+                .textinfo {
+                    width: 445px;
+                    height: 78px;
+                    font-family: Kumbh Sans;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #69707D;
+                    margin-top: 32px;
+                }
+
+                .money {
+                    width: 173px;
+                    height: 68px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 28px;
+                    align-items: center;
+
+                    h2 {
+                        width: 106px;
+                        height: 28px;
+                        font-family: Kumbh Sans;
+                        font-size: 28px;
+                        font-weight: 700;
+                        line-height: 35px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #1D2026;
+
+                    }
+
+                    .go {
+                        width: 51px;
+                        height: max-content;
+                        background-color: #FFEEE2;
+                        border-radius: 5px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .so {
+                            width: 35px;
+                            height: 16px;
+                            font-family: Kumbh Sans;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 20px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #FF7E1B;
+
+
+                        }
+                    }
+
+                    .minus {
+                        width: 63px;
+                        height: 26px;
+                        font-family: Kumbh Sans;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 26px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        color: #B6BCC8;
+
+
+                    }
+                }
+
+                .buttons {
+                    width: 445px;
+                    height: 56px;
+                    display: flex;
+
+                    .plusminus {
+                        background-color: #F6F8FD;
+                        width: 157px;
+                        height: 56px;
+                        border-radius: 15px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+
+                        p {
+                            font-family: Kumbh Sans;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 20px;
+                            letter-spacing: 0px;
+                            text-align: center;
+                            color: #1D2026;
+                        }
+
+                        .imgminus {
+                            width: 12px;
+                            height: 3.3321428298950195px;
+                        }
+
+                        .imgplus {
+                            width: 12px;
+                            height: 12px;
+
+                        }
+                    }
+
+                    button {
+                        width: 272px;
+                        height: 56px;
+                        background-color: #FF7E1B;
+                        border-radius: 15px;
+                        border: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 16px;
+
+                        &:hover {
+                            background: #FFAB6A;
+                        }
+
+                        .buttoninfo {
+                            width: 86px;
+                            height: 16px;
+                            font-family: Kumbh Sans;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 20px;
+                            letter-spacing: 0px;
+                            text-align: left;
+                            color: #FFFFFF;
+                            margin-left: 16px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1112px) {
+    .wrapper header div {
+        margin-right: 0px;
+    }
+
+    .wrapper header img {
+        margin-left: 200px;
+    }
+
+    .wrapper header .oh .men {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 968px) {
+    .wrapper section .box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper section .box .info {
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 668px) {
+
+    // .wrapper header .oh{
+    //     display: none;
+    // }
+    .wrapper header div ul {
+        display: none;
+    }
+
+    .wrapper header .hamb {
+        display: block;
+    }
+
+    .wrapper section .box .info .money {
+        width: 326px;
+        align-items: center;
+    }
+
+    .wrapper section .box .info .money .go {
+        margin-right: 98px;
+    }
+
+    .wrapper section .box .info .buttons {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .wrapper section .box .info .buttons .plusminus {
+        width: 327px;
+        margin-bottom: 16px;
+        height: 56px;
+        border-radius: 0;
+        margin-left: 15px;
+        padding: 30px;
+        margin-top: 70px;
+    }
+
+    .wrapper section .box .info .buttons button {
+        width: 327px;
+        padding: 30px;
+        // margin-top: 70px;
+        &:hover{
+            background: #FFAB6A;
+        }
+    }
+}
